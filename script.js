@@ -218,3 +218,10 @@ document.querySelectorAll("section, .project-card, .skill-card")
 
 
 
+const hamburger = document.getElementById("hamburger");
+
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+  hamburger.classList.toggle("open");
+});
