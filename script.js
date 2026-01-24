@@ -218,10 +218,26 @@ document.querySelectorAll("section, .project-card, .skill-card")
 
 
 
-const hamburger = document.getElementById("hamburger");
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.getElementById("hamburger");
+  const navLinks = document.getElementById("navLinks");
 
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+});
+
+
+
+
+const overlay = document.getElementById("navOverlay");
 
 hamburger.addEventListener("click", () => {
   navLinks.classList.toggle("active");
-  hamburger.classList.toggle("open");
+  overlay.classList.toggle("active");
+});
+
+overlay.addEventListener("click", () => {
+  navLinks.classList.remove("active");
+  overlay.classList.remove("active");
 });
