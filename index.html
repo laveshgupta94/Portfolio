@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <!-- Brand -->
+        <div class="logo">
+            <a href="#hero">Lavesh</a>
+        </div>
+        <!-- Nav Links -->
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="theme-toggle" class="theme-btn">🌙</button>
+
+    </div>
+</nav>
+
+<section id="hero">
+    <div class="hero-parallax"></div>
+    <div class="hero-container">
+
+        <!-- Left Side: Text -->
+        <div class="hero-text" >
+            <p class="hero-intro">Hello, I’m</p>
+            <h1 class="hero-name">Lavesh Gupta</h1>
+            <h3 class="hero-role">
+                 <span id="typing-text"></span>
+                
+            </h3>
+            <p class="hero-description">
+                I build clean, responsive web applications and academic projects.
+            </p>
+            <p class="hero-highlight">Aspiring Software & AI Engineer</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn primary">Contact Me</a>
+                <a href="resume.pdf" class="btn secondary" download>Download Resume</a>
+            </div>
+
+            
+        </div>  <!-- ✅ CLOSED PROPERLY -->
+
+        <!-- Right Side: Image -->
+        <div class="hero-image">
+            <img src="charcter.svg" alt="Lavesh illustration">
+        </div>
+
+    </div>
+</section>
+
+<section id="about" class="about-full reveal " >
+    <div class="about-bg"></div>
+    <div class="about-container">
+
+        <h2 class="section-title">About Me</h2>
+
+        <p class="about-intro">
+            I am a Computer Science student passionate about building
+            software solutions and learning modern technologies.
+        </p>
+
+        <div class="about-grid  stagger">
+
+            <div class="about-box reveal fast" >
+                <h3>📍 From</h3>
+                <p>
+                    I am from <strong>Alwar, Rajasthan</strong>And  pursuing Bachelor of Computer Application from <strong>GLA University, Mathura.</strong>
+                </p>
+            </div>
+
+            <div class="about-box reveal fast" >
+                <h3>🎓 Currently</h3>
+                <p>
+                    Currently, I am learning <strong>Java</strong>,
+                    <strong>Python</strong>, and exploring
+                    <strong>Machine Learning</strong> and
+                    <strong>AI Agents</strong>.
+                </p>
+            </div>
+
+            <div class="about-box reveal fast ">
+                <h3>🚀 What I Do</h3>
+                <p>
+                    I have work on academic and personal projects involving
+                    data analysis, dashboards, and web applications.
+                </p>
+            </div>
+
+            <div class="about-box reveal fast">
+                <h3>🎯 Goals</h3>
+                <p>
+                    My goal is to become....
+                    not revealing my goalss
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section id="skills" class="reveal">
+    <div class="skills-container">
+        <div class="skills-header">
+            <h2 class="skills-title">Skills & Tools</h2>
+            <p class="skills-subtitle">
+                Technologies and tools I use to build solutions
+            </p>
+        </div>
+
+
+        <div class="skills-grid stagger">
+
+            <!-- Skill Card 1 -->
+            <div class="skill-card reveal fast">
+                <div class="skill-icon">
+                    <i class="devicon-java-plain"></i>
+                </div>
+                <h3>Programming</h3>
+                <div class="skill-tags">
+                    <span>Java</span>
+                    <span>Python</span>
+                </div>
+            </div>
+
+            <!-- Skill Card 2 -->
+            <div class="skill-card reveal fast">
+                <div class="skill-icon">
+                    <i class="devicon-python-plain"></i>
+                </div>
+                <h3>Python Libraries</h3>
+                <div class="skill-tags">
+                    <span>NumPy</span>
+                    <span>Pandas</span>
+                    <span>Matplotlib</span>
+                </div>
+            </div>
+
+            <!-- Skill Card 3 -->
+            <div class="skill-card reveal fast">
+                <div class="skill-icon">
+                    📊
+                </div>
+                <h3>Data & Analytics</h3>
+                <div class="skill-tags">
+                    <span>Power BI</span>
+                    <span>Data Visualization</span>
+                </div>
+            </div>
+
+            <!-- Skill Card 4 -->
+            <div class="skill-card reveal fast">
+                <div class="skill-icon">
+                    <i class="devicon-html5-plain"></i>
+                </div>
+                <h3>Web & Tools</h3>
+                <div class="skill-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Git</span>
+                    <span>GitHub</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<section id="projects" class="reveal">
+    <div class="projects-container">
+        <div class="projects-header">
+            <h2 class="projects-title">Projects</h2>
+            <p class="projects-subtitle">
+                A selection of academic and personal projects I have worked on
+            </p>
+        </div>
+
+
+        <div class="projects-grid stagger">
+
+            <!-- Project 1 -->
+            <div class="project-card reveal fast">
+                <span class="project-badge">CampusConectAI</span>
+                <h3>CampusConnectAi</h3>
+                <p class="project-description">
+                    An AI which tells about whole things about 
+                    college, exams, rules in college.
+                    It helps a student to analyze their attendance,academic marks and providing source for learning.
+                </p>
+                <p class="project-tech">
+                    <strong>Technologies:</strong>TypeScript,CSS,Gemini 1.5 Flash For API
+                </p>
+                <a href="https://github.com/laveshgupta94/CoLLeGeINfOai?tab=readme-ov-file" target="_blank" class="project-link">View on GitHub
+                </a><br>
+                <a href="https://co-l-le-ge-i-nf-oai.vercel.app" target="_blank" class="project-link">View Website
+                </a>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card reveal fast">
+                <span class="project-badge">Sale Dashboard</span>
+                <h3>Power BI Sales Dashboard</h3>
+                <p class="project-description">
+                    Designed an interactive dashboard in Power BI to visualize
+                    sales data and support business decision making.
+                </p>
+                <p class="project-tech">
+                    <strong>Technologies:</strong> Power BI, Data Visualization
+                </p>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card reveal fast">
+                <span class="project-badge">Portfolio</span>
+                <h3>Portfolio Website</h3>
+                <p class="project-description">
+                    A responsive personal portfolio website to showcase skills,
+                    projects, and learning journey.
+                </p>
+                <p class="project-tech">
+                    <strong>Technologies:</strong> HTML, CSS, JavaScript
+                </p>
+            </div>
+
+        </div>
+        
+
+    </div>
+</section>
+
+<section id="contact" class="reveal">
+  <div class="contact-wrapper">
+
+    <!-- LEFT SIDE -->
+    <div class="contact-left">
+      <h2>Get In Touch</h2>
+      <p>
+        If you’d like to  discuss a project,
+        or just say hello, feel free to reach out.
+      </p>
+
+      <div class="contact-links">
+        <a href="#guptalavesh925@gmail.com" class="contact-link">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Email</span>
+        </a>
+
+        <a href="https://github.com/laveshgupta94" target="_blank" class="contact-link">
+          <i class="fa-brands fa-github"></i>
+          <span>GitHub</span>
+        </a>
+
+        <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank" class="contact-link">
+          <i class="fa-brands fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="contact-right">
+      <form id="contactForm" class="contact-form">
+
+  <div class="form-fields">
+    <label>Your Name</label>
+    <input type="text" name="name" placeholder="Enter your name" required>
+
+    <label>Your Email</label>
+    <input type="email" name="email" placeholder="Enter your email" required>
+
+    <label>Message</label>
+    <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+    <button type="submit" id="sendBtn" class="tag">Send Message</button>
+  </div>
+
+  <!-- SUCCESS MESSAGE -->
+  <div class="form-success" id="formSuccess">
+    <div class="success-icon">✓</div>
+    <h3>Message Sent!</h3>
+    <p>I’ll get back to you soon.</p>
+  </div>
+
+</form>
+
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-wave"></div>
+    <div class="footer-wave">
+  <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+    <path
+      d="M0,50 C120,80 240,20 360,30 480,40 600,90 720,70 840,50 960,20 1080,30 1200,40 1320,80 1440,60 L1440,0 L0,0 Z"
+      fill="#0f172a"
+    >
+      <animate
+        attributeName="d"
+        dur="6s"
+        repeatCount="indefinite"
+        values="
+        M0,50 C120,80 240,20 360,30 480,40 600,90 720,70 840,50 960,20 1080,30 1200,40 1320,80 1440,60 L1440,0 L0,0 Z;
+        M0,40 C120,20 240,60 360,50 480,40 600,30 720,50 840,70 960,60 1080,50 1200,40 1320,30 1440,40 L1440,0 L0,0 Z;
+        M0,50 C120,80 240,20 360,30 480,40 600,90 720,70 840,50 960,20 1080,30 1200,40 1320,80 1440,60 L1440,0 L0,0 Z
+        "
+      />
+    </path>
+  </svg>
+</div>
+
+  <div class="footer-container">
+
+    <!-- LEFT SIDE -->
+    <div class="footer-left">
+      <h3>Lavesh Gupta</h3>
+      <ul class="footer-nav">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="footer-right">
+      
+
+      <div class="footer-socials">
+        <a href="https://github.com/laveshgupta94" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/lavesh-gupta-a01a09325" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:guptalavesh925@gmail.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Lavesh Gupta. All rights reserved.
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  (function(){
+      emailjs.init("IRmwaF1cj52A6U8Ql");
+  })();
+</script>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
